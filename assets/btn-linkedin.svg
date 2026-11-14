@@ -1,0 +1,155 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 88" width="372" height="88" role="img" aria-label="LINKEDIN â€” in/abdul-haseeb">
+<title>LINKEDIN</title>
+<defs>
+  <clipPath id="card"><rect width="372" height="88" rx="16"/></clipPath>
+
+  <filter id="bloom" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0"   stop-color="#F5A84B"/>
+    <stop offset="1"   stop-color="#EA865E"/>
+  </linearGradient>
+  <linearGradient id="brandV" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#F5A84B" stop-opacity="0"/>
+    <stop offset="1" stop-color="#EA865E" stop-opacity=".28"/>
+  </linearGradient>
+  <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#F5A84B"/>
+    <stop stop-color="#FFD9A8">
+      <animate attributeName="offset" values=".05;.95;.05" dur="7s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="1" stop-color="#EA865E"/>
+  </linearGradient>
+  <linearGradient id="topLight" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0"   stop-color="#F5A84B" stop-opacity="0"/>
+    <stop offset=".5"  stop-color="#F5A84B" stop-opacity=".26"/>
+    <stop offset="1"   stop-color="#F5A84B" stop-opacity="0"/>
+    <animate attributeName="x1" values="-.45;1" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;1.45" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="haze" cx=".5" cy=".5" r=".5">
+    <stop offset="0"   stop-color="#EA865E" stop-opacity=".11"/>
+    <stop offset=".55" stop-color="#F5A84B"  stop-opacity=".04"/>
+    <stop offset="1"   stop-color="#F5A84B"  stop-opacity="0"/>
+  </radialGradient>
+
+  <style>
+@font-face{font-family:'Sora';font-style:normal;font-weight:700;src:url(data:font/woff2;base64,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) format('woff2')}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;src:url(data:font/woff2;base64,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) format('woff2')}
+
+    /* Sora is the voice; Poppins does the reading. Nothing is tracked out â€”
+       both faces are well fitted, and the tracking was doing work a real
+       display face should do on its own. The @font-face rules are injected
+       per panel by shell(), so each file carries only what it draws. */
+    .disp { font-family: Sora, 'Poppins', 'Segoe UI', system-ui, sans-serif; font-weight: 800; }
+    .text { font-family: Poppins, 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 400; }
+    .mono { font-family: Poppins, 'Segoe UI', system-ui, sans-serif; font-weight: 500; }
+    .fb   { transform-box: fill-box; transform-origin: center; }
+
+    .rise { animation: rise .95s cubic-bezier(.16,1,.3,1) backwards; }
+    @keyframes rise { from { transform: translateY(105%) } }
+
+    .up   { animation: up .62s cubic-bezier(.16,1,.3,1) backwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(10px) } }
+
+    .in   { animation: pin .5s cubic-bezier(.2,1.3,.4,1) backwards; }
+    @keyframes pin { from { opacity: 0; transform: scale(.7) } }
+
+    .draw { animation: draw 1.2s cubic-bezier(.16,1,.3,1) backwards; }
+    @keyframes draw { from { stroke-dashoffset: var(--len, 900) } }
+
+    /* particle cloud: five interleaved buckets share five animations. The
+       previous version ran one keyframe per dot with a var()+calc() opacity,
+       which is 260 style recalcs a frame. */
+    .dot  { animation: dot 5.2s ease-in-out infinite; }
+    @keyframes dot { 0%,100%{opacity:.34} 50%{opacity:.8} }
+
+    /* signal running along a connector */
+    .sig  { stroke-dasharray: 5 190; animation: sig 5.5s linear infinite; }
+    @keyframes sig { from { stroke-dashoffset: 195 } to { stroke-dashoffset: -195 } }
+
+    .breathe { animation: breathe 4.5s ease-in-out infinite; }
+    @keyframes breathe { 0%,100%{opacity:.4;transform:scale(.9)} 50%{opacity:1;transform:scale(1)} }
+
+    /* the gradient itself slides â€” the only place the brand hue moves */
+    .glide { animation: glide 9s ease-in-out infinite; }
+    @keyframes glide { 0%,100%{opacity:1} 50%{opacity:.86} }
+
+    /* â”€â”€ ambient layer â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+       Everything below loops forever. All of it is transform or opacity so
+       it composites rather than repaints, and nothing runs faster than 4s â€”
+       a profile card should feel alive, not restless. */
+
+    /* the arrow leans forward the way a hovered one would */
+    .nudge { animation: nudge 4s cubic-bezier(.16,1,.3,1) infinite; }
+    @keyframes nudge { 0%,72%,100%{transform:translateX(0)} 80%,88%{transform:translateX(4px)} }
+
+    /* slow vertical drift; phase is set per element */
+    .float { animation: float 7s ease-in-out infinite; }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-3px)} }
+
+    /* a scale beat, used where the scan passes something */
+    .bump  { animation: bump 9s cubic-bezier(.2,1.4,.4,1) infinite; }
+    @keyframes bump { 0%,100%{transform:scale(1)} 3%{transform:scale(1.09)} 14%{transform:scale(1)} }
+
+    /* the whole cloud tips a fraction of a degree, so the mesh reads 3D */
+    .tip   { animation: tip 16s ease-in-out infinite; }
+    @keyframes tip { 0%,100%{transform:rotate(-.7deg) scale(1)} 50%{transform:rotate(.7deg) scale(1.02)} }
+
+    /* chip outline catches the light in sequence */
+    .relay { animation: relay 8s ease-out infinite; }
+    @keyframes relay { 0%,100%{stroke:#29313C} 4%{stroke:#F5A84B} 16%{stroke:#29313C} }
+
+    /* ghosted index in the card headers, barely breathing */
+    .ghost { animation: ghost 8s ease-in-out infinite; }
+    @keyframes ghost { 0%,100%{opacity:.05} 50%{opacity:.11} }
+
+    .spin  { animation: spin 22s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg) } }
+    /* the nudge: a 300ms move on a 4s cycle â€” the timing a real hover
+       would have, just self-initiated */
+    .nudge { animation: nudge 4s cubic-bezier(.16,1,.3,1) infinite; }
+    @keyframes nudge { 0%,72%,100%{transform:translateX(0)} 80%,88%{transform:translateX(4px)} }
+    .tile  { animation: tile 4s ease-in-out infinite; }
+    @keyframes tile { 0%,100%{opacity:.82} 50%{opacity:1} }
+
+    @media (prefers-reduced-motion: reduce) {
+      .rise,.up,.in,.draw,.dot,.sig,.breathe,.glide,.nudge,.float,.bump,.tip,.relay,.ghost,.spin,.nudge,.tile {
+        animation: none !important; stroke-dashoffset: 0 !important;
+      }
+      .sig { opacity: 0 !important; }
+    }
+  </style>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="372" height="88" fill="#0B1017"/>
+
+  <rect width="372" height="88" rx="16" fill="#141921"/>
+  <rect x="1" y="1" width="370" height="86" rx="15" fill="none"
+        stroke="#29313C" stroke-width="1.4"/>
+
+  <g class="up">
+    <rect x="18" y="25" width="38" height="38" rx="12"
+          fill="#181E27" stroke="#29313C"/>
+    <g class="tile fb" fill="#F5A84B" transform="translate(26,33) scale(.92)"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></g>
+  </g>
+
+  <text class="disp up" x="70" y="43" font-size="16" font-weight="700"
+        fill="#F0F4F9" style="animation-delay:.06s">LINKEDIN</text>
+  <text class="text up" x="70" y="61" font-size="10.5"
+        fill="#8A93A0" style="animation-delay:.1s">in/abdul-haseeb</text>
+
+  <g class="up" style="animation-delay:.16s">
+    <circle cx="332" cy="44" r="17" fill="none"
+            stroke="#29313C" stroke-width="1.3"/>
+    <g class="nudge fb">
+      <path d="M325 44h13M333 39l5 5l-5 5"
+            stroke="#F5A84B" stroke-width="1.7" fill="none"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <path d="M18 .75H354" stroke="url(#topLight)" stroke-width="1.5" fill="none"/>
+  <rect width="371" height="87" x=".5" y=".5" rx="16" fill="none" stroke="#29313C"/>
+</g>
+</svg>

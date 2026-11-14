@@ -1,0 +1,181 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 116" width="1200" height="116" role="img" aria-label="27+ public repositories, 10+ projects shipped, 3+ years in CS and AI, 150+ coding challenges solved, 14k+ pixels built.">
+<title>By the numbers</title>
+<defs>
+  <clipPath id="card"><rect width="1200" height="116" rx="16"/></clipPath>
+
+  <filter id="bloom" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0"   stop-color="#F5A84B"/>
+    <stop offset="1"   stop-color="#EA865E"/>
+  </linearGradient>
+  <linearGradient id="brandV" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#F5A84B" stop-opacity="0"/>
+    <stop offset="1" stop-color="#EA865E" stop-opacity=".28"/>
+  </linearGradient>
+  <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#F5A84B"/>
+    <stop stop-color="#FFD9A8">
+      <animate attributeName="offset" values=".05;.95;.05" dur="7s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="1" stop-color="#EA865E"/>
+  </linearGradient>
+  <linearGradient id="topLight" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0"   stop-color="#F5A84B" stop-opacity="0"/>
+    <stop offset=".5"  stop-color="#F5A84B" stop-opacity=".26"/>
+    <stop offset="1"   stop-color="#F5A84B" stop-opacity="0"/>
+    <animate attributeName="x1" values="-.45;1" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;1.45" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="haze" cx=".5" cy=".5" r=".5">
+    <stop offset="0"   stop-color="#EA865E" stop-opacity=".11"/>
+    <stop offset=".55" stop-color="#F5A84B"  stop-opacity=".04"/>
+    <stop offset="1"   stop-color="#F5A84B"  stop-opacity="0"/>
+  </radialGradient>
+
+  <style>
+@font-face{font-family:'Sora';font-style:normal;font-weight:700;src:url(data:font/woff2;base64,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) format('woff2')}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;src:url(data:font/woff2;base64,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) format('woff2')}
+
+    /* Sora is the voice; Poppins does the reading. Nothing is tracked out â€”
+       both faces are well fitted, and the tracking was doing work a real
+       display face should do on its own. The @font-face rules are injected
+       per panel by shell(), so each file carries only what it draws. */
+    .disp { font-family: Sora, 'Poppins', 'Segoe UI', system-ui, sans-serif; font-weight: 800; }
+    .text { font-family: Poppins, 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 400; }
+    .mono { font-family: Poppins, 'Segoe UI', system-ui, sans-serif; font-weight: 500; }
+    .fb   { transform-box: fill-box; transform-origin: center; }
+
+    .rise { animation: rise .95s cubic-bezier(.16,1,.3,1) backwards; }
+    @keyframes rise { from { transform: translateY(105%) } }
+
+    .up   { animation: up .62s cubic-bezier(.16,1,.3,1) backwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(10px) } }
+
+    .in   { animation: pin .5s cubic-bezier(.2,1.3,.4,1) backwards; }
+    @keyframes pin { from { opacity: 0; transform: scale(.7) } }
+
+    .draw { animation: draw 1.2s cubic-bezier(.16,1,.3,1) backwards; }
+    @keyframes draw { from { stroke-dashoffset: var(--len, 900) } }
+
+    /* particle cloud: five interleaved buckets share five animations. The
+       previous version ran one keyframe per dot with a var()+calc() opacity,
+       which is 260 style recalcs a frame. */
+    .dot  { animation: dot 5.2s ease-in-out infinite; }
+    @keyframes dot { 0%,100%{opacity:.34} 50%{opacity:.8} }
+
+    /* signal running along a connector */
+    .sig  { stroke-dasharray: 5 190; animation: sig 5.5s linear infinite; }
+    @keyframes sig { from { stroke-dashoffset: 195 } to { stroke-dashoffset: -195 } }
+
+    .breathe { animation: breathe 4.5s ease-in-out infinite; }
+    @keyframes breathe { 0%,100%{opacity:.4;transform:scale(.9)} 50%{opacity:1;transform:scale(1)} }
+
+    /* the gradient itself slides â€” the only place the brand hue moves */
+    .glide { animation: glide 9s ease-in-out infinite; }
+    @keyframes glide { 0%,100%{opacity:1} 50%{opacity:.86} }
+
+    /* â”€â”€ ambient layer â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+       Everything below loops forever. All of it is transform or opacity so
+       it composites rather than repaints, and nothing runs faster than 4s â€”
+       a profile card should feel alive, not restless. */
+
+    /* the arrow leans forward the way a hovered one would */
+    .nudge { animation: nudge 4s cubic-bezier(.16,1,.3,1) infinite; }
+    @keyframes nudge { 0%,72%,100%{transform:translateX(0)} 80%,88%{transform:translateX(4px)} }
+
+    /* slow vertical drift; phase is set per element */
+    .float { animation: float 7s ease-in-out infinite; }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-3px)} }
+
+    /* a scale beat, used where the scan passes something */
+    .bump  { animation: bump 9s cubic-bezier(.2,1.4,.4,1) infinite; }
+    @keyframes bump { 0%,100%{transform:scale(1)} 3%{transform:scale(1.09)} 14%{transform:scale(1)} }
+
+    /* the whole cloud tips a fraction of a degree, so the mesh reads 3D */
+    .tip   { animation: tip 16s ease-in-out infinite; }
+    @keyframes tip { 0%,100%{transform:rotate(-.7deg) scale(1)} 50%{transform:rotate(.7deg) scale(1.02)} }
+
+    /* chip outline catches the light in sequence */
+    .relay { animation: relay 8s ease-out infinite; }
+    @keyframes relay { 0%,100%{stroke:#29313C} 4%{stroke:#F5A84B} 16%{stroke:#29313C} }
+
+    /* ghosted index in the card headers, barely breathing */
+    .ghost { animation: ghost 8s ease-in-out infinite; }
+    @keyframes ghost { 0%,100%{opacity:.05} 50%{opacity:.11} }
+
+    .spin  { animation: spin 22s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg) } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .rise,.up,.in,.draw,.dot,.sig,.breathe,.glide,.nudge,.float,.bump,.tip,.relay,.ghost,.spin {
+        animation: none !important; stroke-dashoffset: 0 !important;
+      }
+      .sig { opacity: 0 !important; }
+    }
+  </style>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1200" height="116" fill="#0B1017"/>
+  <rect width="1200" height="116" fill="#141921"/>
+  <g class="up" style="animation-delay:0.00s">
+
+    <text class="mono" x="30" y="46" font-size="10" letter-spacing="0.8" fill="#8A93A0">PUBLIC REPOS</text>
+    <text class="disp" x="30" y="80" font-size="29" font-weight="700" letter-spacing="-.8" fill="#F0F4F9">27+</text>
+    <path class="draw" style="--len:200;animation-delay:0.40s" stroke-dasharray="200"
+          d="M140 72L146 72L152 76L158 80L164 72L170 74L176 72L182 77L188 75L194 68L200 69L206 73L212 63" fill="none" stroke="url(#brand)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle r="2.6" fill="#F5A84B">
+      <animateMotion dur="6s" begin="1.40s" repeatCount="indefinite" path="M140 72L146 72L152 76L158 80L164 72L170 74L176 72L182 77L188 75L194 68L200 69L206 73L212 63"/>
+      <animate attributeName="opacity" dur="6s" begin="1.40s" repeatCount="indefinite"
+               values="0;1;1;0" keyTimes="0;.08;.92;1"/>
+    </circle>
+  </g>
+  <g class="up" style="animation-delay:0.06s">
+    <path d="M240 26V90" stroke="#29313C"/>
+    <text class="mono" x="270" y="46" font-size="10" letter-spacing="0.8" fill="#8A93A0">PROJECTS SHIPPED</text>
+    <text class="disp" x="270" y="80" font-size="29" font-weight="700" letter-spacing="-.8" fill="#F0F4F9">10+</text>
+    <path class="draw" style="--len:200;animation-delay:0.49s" stroke-dasharray="200"
+          d="M380 61L386 64L392 77L398 64L404 60L410 59L416 67L422 67L428 62L434 78L440 71L446 77L452 58" fill="none" stroke="url(#brand)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle r="2.6" fill="#F5A84B">
+      <animateMotion dur="6s" begin="1.75s" repeatCount="indefinite" path="M380 61L386 64L392 77L398 64L404 60L410 59L416 67L422 67L428 62L434 78L440 71L446 77L452 58"/>
+      <animate attributeName="opacity" dur="6s" begin="1.75s" repeatCount="indefinite"
+               values="0;1;1;0" keyTimes="0;.08;.92;1"/>
+    </circle>
+  </g>
+  <g class="up" style="animation-delay:0.12s">
+    <path d="M480 26V90" stroke="#29313C"/>
+    <text class="mono" x="510" y="46" font-size="10" letter-spacing="0.8" fill="#8A93A0">YEARS IN CS/AI</text>
+    <text class="disp" x="510" y="80" font-size="29" font-weight="700" letter-spacing="-.8" fill="#F0F4F9">3+</text>
+    <path class="draw" style="--len:200;animation-delay:0.58s" stroke-dasharray="200"
+          d="M620 74L626 59L632 70L638 68L644 69L650 58L656 63L662 76L668 78L674 72L680 62L686 80L692 62" fill="none" stroke="url(#brand)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle r="2.6" fill="#F5A84B">
+      <animateMotion dur="6s" begin="2.10s" repeatCount="indefinite" path="M620 74L626 59L632 70L638 68L644 69L650 58L656 63L662 76L668 78L674 72L680 62L686 80L692 62"/>
+      <animate attributeName="opacity" dur="6s" begin="2.10s" repeatCount="indefinite"
+               values="0;1;1;0" keyTimes="0;.08;.92;1"/>
+    </circle>
+  </g>
+  <g class="up" style="animation-delay:0.18s">
+    <path d="M720 26V90" stroke="#29313C"/>
+    <text class="mono" x="750" y="46" font-size="10" letter-spacing="0.8" fill="#8A93A0">PROBLEMS SOLVED</text>
+    <text class="disp" x="750" y="80" font-size="29" font-weight="700" letter-spacing="-.8" fill="#F0F4F9">150+</text>
+    <path class="draw" style="--len:200;animation-delay:0.67s" stroke-dasharray="200"
+          d="M860 77L866 78L872 66L878 59L884 77L890 76L896 67L902 79L908 63L914 69L920 59L926 58L932 78" fill="none" stroke="url(#brand)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle r="2.6" fill="#F5A84B">
+      <animateMotion dur="6s" begin="2.45s" repeatCount="indefinite" path="M860 77L866 78L872 66L878 59L884 77L890 76L896 67L902 79L908 63L914 69L920 59L926 58L932 78"/>
+      <animate attributeName="opacity" dur="6s" begin="2.45s" repeatCount="indefinite"
+               values="0;1;1;0" keyTimes="0;.08;.92;1"/>
+    </circle>
+  </g>
+  <g class="up" style="animation-delay:0.24s">
+    <path d="M960 26V90" stroke="#29313C"/>
+    <text class="mono" x="990" y="46" font-size="10" letter-spacing="0.8" fill="#8A93A0">PORTFOLIO DEPTH</text>
+    <text class="disp" x="990" y="80" font-size="29" font-weight="700" letter-spacing="-.8" fill="#F0F4F9">14k+</text>
+    <circle cx="1138" cy="70" r="17" fill="none" stroke="#29313C" stroke-width="4"/>
+    <circle class="draw spin fb" style="--len:108;animation-delay:0.76s,0s" cx="1138" cy="70" r="17"
+            fill="none" stroke="url(#brand)" stroke-width="4" stroke-dasharray="108" stroke-linecap="round"/>
+  </g>
+  <path d="M18 .75H1182" stroke="url(#topLight)" stroke-width="1.5" fill="none"/>
+  <rect width="1199" height="115" x=".5" y=".5" rx="16" fill="none" stroke="#29313C"/>
+</g>
+</svg>
